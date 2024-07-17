@@ -1,7 +1,7 @@
 #container {
     border: 4px solid black;
-    height: 200px;
-    width: 500px;
+    height: 100px;
+    width: auto;
     margin: auto;
     display: flex; /*turns on flexbox for the container*/
     flex-direction: row; /* arranges the items in a row horizontally */
@@ -11,18 +11,32 @@
     align-items: center;
     font-size: larger;
   }
+
+  #heading{
+  
+      font-size: 36px; /* increased font size for better readability */
+      font-weight: bold; /* added bold font weight for emphasis */
+      margin-bottom: 20px; /* increased margin bottom for better spacing */
+      color: #FF0033; /* changed color to a deeper, more vibrant red */
+      text-align: center; /* kept text alignment centered */
+      text-transform: uppercase; /* added uppercase text transform for a more dramatic effect */
+      letter-spacing: 2px; /* added letter spacing for a more premium feel */
+      border-bottom: 2px solid #CCCCCC; /* added a subtle border bottom for separation */
+      padding-bottom: 10px; /* added padding bottom for better spacing */
+}
   
   .item {
-    width: 50px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    width: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
   }
   
   .item1 {
     background-color: violet;
   }
   .item2 {
-    background-color: indigo;
+    background-color: rgb(134, 248, 3);
   }
   .item3 {
     background-color: blue;
@@ -37,6 +51,6 @@
     background-color: gold;
   }
   .item7 {
-    background-color: lightyellow;
+    background-color: rgb(255, 255, 0);
   }
   
